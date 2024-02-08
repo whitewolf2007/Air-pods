@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size:30px ;
+    gap: 20px;
+    justify-content: space-around;
+}
+.navbar a{
+    color:white;
+    margin-left:40px;
+}
+.navbar a:hover{
+color:blue;
+background:linear-gradient(to left,black,white);
+transition: 1s;
+}
+.card6 .card4{
+    display: flex;
+}
+.navbar .card3 img{
+    margin-left: 30px;
+}
+.container1{
+    width: 100%;
+    height: 850px;
+    background-image: url(./Header.jpg);
+    background-size: cover;
+}
+.container1 .card1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: aliceblue;
+}
+.container1 .card1 h1{
+color: #FFF;
+font-family: Prosto One;
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: 75px; /* 75% */
+}
+.bottom{
+    margin-top: 30px;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.bottom a{
+    color: black;
+}
+.bottom :hover{
+    background:linear-gradient(to left,black,white);
+    color: blue;
+}
+.container1 .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 850px;
+}
+.box32{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25px;
+    margin-left: 360px;
+}
+.container2{
+    width: 100%;
+    height: 2000px;
+    background-color: black;
+}
+.container2 .box1 .card5,.card6,.card7,.card8,.card9,.card10,.card11{
+    color: white;
+    width: 550px;
+    height: 300px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+} 
+.box1,.box2,.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.box2{
+    align-items: center;
+}
+.card10{
+    margin-left: 150 px;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    background-color: aliceblue;
+}
+.card2q{
+    margin-left: 220px;
+}
+.card3q{
+   margin-right: 180px; 
+}
+.card11{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card9{
+    display: flex;
+    align-items: center;
+}
+.box3{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .title2 .box1 .card1{
+    margin-top: 250px;
+    width: 255px;
+    height: 312px;
+    flex-shrink: 0;
+    color: black;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+.container2 .title2 .box1 .card1 h4{
+    margin-bottom: 20px;
+color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.container2 .title2 .box1 .card1 img{
+    width: 127.5px;
+height: 167px;
+flex-shrink: 0;
+}
+.container2 .title2 .box1 .card1 .botton{
+color: #FFF;
+margin-top: 30px;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+width: 161px;
+height: 34px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(45, 42, 42);
+    color: aliceblue;
+    font-size: 30px;
+}
+.footer .card2 a{
+     color: #FFF;
+     margin-left: 30px;
+}
+.card3-qa{
+   display: flex;
+   align-items: center;
+}
+.button-1a{
+    margin-top: 30px;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.button-1a:hover{
+    background:linear-gradient(to left,black,rgb(51, 50, 50));
+    color: red;
+    padding:20px 40x;
+    transition: 2s;
+}
